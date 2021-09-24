@@ -2,18 +2,17 @@
 //  AppDelegate.swift
 //  Moviefy
 //
-//  Created by Sawyer Cherry on 9/24/21.
+//  Created by Adriana González Martínez on 3/12/20.
+//  Copyright © 2020 Adriana González Martínez. All rights reserved.
 //
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        //UINavigationBar.appearance().prefersLargeTitles = true
         return true
     }
 
