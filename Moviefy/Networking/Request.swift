@@ -9,6 +9,18 @@
 import Foundation
 
 struct Request {
+    public enum HTTPMethod: String{
+        case get = "GET"
+        case post = "POST"
+        case put = "PUT"
+        case patch = "PATCH"
+        case delete = "DELETE"
+    }
+    
+    public enum Route: String{
+        case movies = "discover/movie"
+    }
+    
     static let headers = [
         "Accept": "application/json",
         "Content-Type": "application/json",
