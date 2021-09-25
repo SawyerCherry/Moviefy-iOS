@@ -26,6 +26,7 @@
 		F240BA3F26FE26A0000C3C47 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240BA3E26FE26A0000C3C47 /* Request.swift */; };
 		F25AA6B726FEA748009B0405 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AA6B626FEA748009B0405 /* NetworkError.swift */; };
 		F25AA6B926FEABFA009B0405 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AA6B826FEABFA009B0405 /* Encoder.swift */; };
+		F25AA6BB26FEACD1009B0405 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AA6BA26FEACD1009B0405 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +63,7 @@
 		F240BA3E26FE26A0000C3C47 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		F25AA6B626FEA748009B0405 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		F25AA6B826FEABFA009B0405 /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
+		F25AA6BA26FEACD1009B0405 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				F240BA3E26FE26A0000C3C47 /* Request.swift */,
 				F25AA6B626FEA748009B0405 /* NetworkError.swift */,
 				F25AA6B826FEABFA009B0405 /* Encoder.swift */,
+				F25AA6BA26FEACD1009B0405 /* Response.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				ABAB4F08241A172E001E85CA /* AppDelegate.swift in Sources */,
 				AB9F5810243D6820006612A3 /* Movie.swift in Sources */,
 				AB9F57FA243D54F1006612A3 /* MovieCell.swift in Sources */,
+				F25AA6BB26FEACD1009B0405 /* Response.swift in Sources */,
 				ABAB4F0A241A172E001E85CA /* SceneDelegate.swift in Sources */,
 				F240BA3F26FE26A0000C3C47 /* Request.swift in Sources */,
 				F25AA6B926FEABFA009B0405 /* Encoder.swift in Sources */,
